@@ -1,0 +1,138 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+/* background-repeat можно изменить механизм повторения
+repeat-x: повторение по горизонтали
+repeat-y: повторение по вертикали
+repeat: повторение по обеим сторонам (действие по умолчанию)
+space: изображение повторяется для заполнения всей поверхности элемента, но без создания фрагментов
+round: изображение должным образом масштабируется для полного заполнения всего пространства
+no-repeat: изображение не повторяется*/
+
+
+
+/* Свойство background-attachment управляет, как фоновое изображение будет прикреплено к элементу.
+fixed: фон элемента фиксирован вне зависимости от прокрутки внутри элемента
+local: по мере прокрутки внутри элемента фон изменяется
+scroll: фон фиксирован и не меняется при прокрутке, но в отличие от fixed несколько элементов могут использовать свой фон, тогда как при fixed создается один фон для всех элементов
+*/
+
+
+
+/* Свойство background-origin указывает позицию на изображении, с которой будет начинаться собственно фоновое изображение для элемента. Оно может принимать следующие значения:
+border-box: фон у элемента устанавливается начиная с его внешней границы, определяемой свойством border
+padding-box: фон устанавливается с учетом внутренних отступов
+content-box: фон устанавливается по содержимому элемента
+body{
+    background-image: url(bg_origin.png);
+}
+*/
+
+
+/* Свойство background-clip определяет, какая часть изображения используется для фона. Он принимает те же значения:
+border-box: изображение обрезается по границам элемента
+padding-box: из изображения исключается та часть, которая находится под границами элемента
+content-box: изображение обрезается по содержимому с учетом внутренних отступов
+body{
+    background-image: url(bg_clip.png);
+}
+*/
+
+
+
+#text{
+    text-transform: lowercase;
+}
+#text1{
+    text-transform: uppercase;
+}
+#text2{
+    text-transform: capitalize;
+}
+
+
+#text3{
+    text-decoration: overline;
+}
+#text4{
+    text-decoration: underline;
+}
+
+
+#text5{
+    letter-spacing: 1px;
+}
+#text6{
+    word-spacing: 1px;
+}
+
+
+#text7{
+    text-shadow: 5px 4px 3px #999;
+}
+
+#text8{
+    text-align: center;
+}
+#text9{
+    text-align: justify;
+}
+
+
+#text10{
+    text-indent: 35px;
+    /* text-indent задает отступ первой строки абзаца */
+}
+
+
+li{
+    list-style-type: none;
+    display: inline;
+    margin-top: 30px; /* отступ сверху */
+    margin-left: 25px; /* отступ слева */
+    margin-right: 20px; /* отступ справа */
+    margin-bottom: 15px; /* отступ снизу */
+    border: 1px solid #999;
+    border-top-left-radius: 15px;   /* радиус для верхнего левого угла */
+    border-top-right-radius: 30px;  /* радиус для верхнего правого угла */
+    border-bottom-right-radius: 5px;    /* радиус для нижнего левого угла */
+    border-bottom-left-radius: 40px;    /* радиус для нижнего правого угла */
+    background-color: chartreuse;
+    padding: 20px;
+
+}
+
+
+#text11{
+    background-color: aquamarine;
+    border: 1px solid #999;
+    padding: 5px;
+    min-width: 200px;
+width:50%;
+max-width: 300px;
+/* В данном случае ширина элемента равна 50% ширины элемента-контейнера, однако при этом не может быть меньше 200 пикселей и больше 300 пикселей. */
+}
+
+/* border-box
+    content-box: значение свойства по умолчанию, при котором браузер для определения реальных ширины и высоты элементов добавляет берет соответственно значения свойств width и height элемента
+    padding-box: указывает веб-браузеру, что ширина и высота элемента должны включать внутренние отступы как часть своего значения.
+    border-box: указывает веб-браузеру, что ширина и высота элемента должны включать внутренние отступы и границы как часть своего значения.
+
+*/
+
+
+div{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ccc;
+    background-color: #eee;
+}
+div.outer1{
+    box-sizing: content-box;
+}
+div.outer2{
+    box-sizing: border-box;
+}
