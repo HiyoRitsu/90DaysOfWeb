@@ -4,9 +4,9 @@
 
 Моя цель состоит в том, чтобы в течение 30 дней учиться и учиться и наконец-то создать свой первый сайт
 
-##Process
+## Process
 ---
-###Css Basic
+### Css Basic
 * [-] 1 > 
     * CSS-позиционирование
     * CSS-текст
@@ -50,7 +50,7 @@
     * Creating the First Page of Vk
     * Creating the First Page of Facebook
 
-###Basic of JS
+### Basic of JS
 * [-] 6 >
     * Основы javascript
     * Функциональное программирование
