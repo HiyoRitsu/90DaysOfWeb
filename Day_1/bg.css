@@ -1,0 +1,51 @@
+/* background-color: salmon;
+background-color: #00ff00;
+background-color: rgba(255, 128, 128, 0.5);
+background-color: currentColor;
+background-color: transparent;
+background-color: inherit;
+background-color: initial;
+*/
+
+
+
+/* background-image: none;
+background-image: url(http://site.ru/rose.png);
+background-image: url(tl.png), url(tr.png);
+background-image: linear-gradient(white, gray);
+background-image: repeating-radial-gradient(circle closest-side at 20px 30px, red, yellow, green 100%, yellow 150%, red 200%);
+background-image: image("sprites.svg#xywh=40,0,20,20");
+background-image: inherit; */
+
+
+
+/* Свойство background-repeat определяет, как фоновые изображения укладываются в области фона после того, как для них установлены размеры и позиционирование.
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+​​​​​​​background-repeat: space;
+​​​​​​​background-repeat: round;
+​​​​​​​background-repeat: no-repeat;
+background-repeat: repeat space;
+background-repeat: repeat repeat;
+background-repeat: round space;
+background-repeat: no-repeat round;
+background-repeat: inherit;
+background-repeat: initial;
+*/
+
+
+
+/* background-attachment: scroll;
+background-attachment: fixed;
+background-attachment: local;
+background-attachment: inherit;
+background-attachment: initial; */
+
+
+/* background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;
+background-position: 25% 75%; */

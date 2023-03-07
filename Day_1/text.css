@@ -1,0 +1,75 @@
+/* 
+text-transform: none;
+text-transform: capitalize;
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: inherit;
+text-transform: initial; */
+
+
+/* whice-space: обрабатывает пробелы между словами и переносы строк внутри элемента.
+nowrap  	Запрещает переносы строк, за исключением применения <br>.
+pre	        Пробелы в тексте не игнорируются, браузер отображает дополнительные пробелы и переносы строк.
+pre-wrap	Сохраняет пробелы в тексте, делая разрывы строк там, где это необходимо.
+pre-line	Удаляет лишние пробелы, за исключением случаев <br>.
+*/
+
+
+/* tab size
+tab-size: 0;
+tab-size: 10px;
+tab-size: inherit;
+tab-size: initial;
+*/
+
+
+/* word-break: normal; 
+word-break: break-all; 
+word-break: keep-all;
+word-break: inherit;
+word-break: initial; */
+
+
+/* line-break: auto;
+line-break: loose;
+line-break: normal;
+line-break: strict;
+line-break: inherit;
+line-break: initial; */
+
+
+/* 
+Свойство hyphens определяет, разрешено ли использование переносов для создания возможностей мягкого переноса внутри строки текста.
+hyphens: none;
+hyphens: manual;
+hyphens: auto;
+hyphens: inherit;
+hyphens: initial;
+*/
+
+
+/* Overflow-wrap
+Let the browser be allowed to break lines with long words, if they overflow the container:
+overflow-wrap: break-word; */
+ 
+
+/* 
+text-align: start;
+text-align: end;
+text-align: left;
+text-align: right;
+text-align: center;
+text-align: justify;
+text-align: justify-all;
+text-align: match-parent;
+text-align: inherit; */
+
+
+/* 
+Свойство text-decoration позволяет добавить к тексту некоторые дополнительные эффекты. Это свойство может принимать следующие значения:
+underline: подчеркивает текст
+overline: надчеркивает текст, проводит верхнюю линию
+line-through: зачеркивает текст
+none: к тексту не применяется декорирование */
+
+
